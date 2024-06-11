@@ -1,0 +1,50 @@
+{{ define "main" }}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  {{ partial "mobile_nav_toggle.html" . }}
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1 class="work-page-title">{{ .Title }}</h1>
+         {{ .Content | safeHTML }}
+         {{ template "_internal/disqus.html" . }}
+	
+      </div>
+    </div>
+	{{ if eq .Params.DisplayTimeline true }}
+		<div class="timeline">
+			<i class="fa-solid fa-caret-right timeline-arrow"></i>
+			<div>
+			{{ range .Site.Pages }}
+				{{ if eq .Params.DisplayInTimeline true }}
+				<a class="timeline-element" href="{{.Permalink}}">
+					<div class="timeline-element-content">
+						<h4 class ="timeline-title">{{.Params.Title }}</h4>
+						<span class = "timeline-role">{{.Params.Role }} </span> </br>
+						<span class = "timeline-period">{{.Params.Period }} </span>
+					</div>
+				</a>
+				{{end}}
+			{{end}}
+			</div>
+		</div>
+	{{end}}
+  </div>
+	{{ if eq .Params.DisplayNextAndPrevious true }}
+	<div>
+		{{ $pages := where .Site.RegularPages.ByWeight "Section" "projects" }}
+
+		{{ with $pages.Prev . }}
+		  <a href="{{ .RelPermalink }}" class="previous">PREVIOUS PROJECT</a>
+		{{ end }}
+
+		{{ with $pages.Next .  }}
+		 <a href="{{ .RelPermalink }}" class="next">NEXT PROJECT</a>
+		{{end}}
+		
+
+	</div>
+	{{ end }}
+</div>
+
+
+{{ end }}

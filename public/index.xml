@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alejandro Moya</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Alejandro Moya</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Nov 2016 19:41:01 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ALDERON GAMES</title>
+      <link>http://localhost:1313/work/alderongames/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      <guid>http://localhost:1313/work/alderongames/</guid>
+      <description>Unreal Engine Programmer Dec 2023 - Jun 2024&#xA;During my time at Alderon Games I worked on Path of Titans, an MMO dinosaur game for PC, PlayStation®, Nintendo Switch™, Xbox and mobile devices made in Unreal Engine 5:&#xA;Developed networked movement features for dinosaur character controllers. Implemented abilities and effects using Unreal Engine&amp;rsquo;s Gameplay Ability System. Programmed gameplay features for three game modes: Capture The Egg, Team Death Match and King of the Hill.</description>
+    </item>
+    <item>
+      <title>Prince of Persia&#39;s Time Rewind Recreation</title>
+      <link>http://localhost:1313/projects/princeofpersia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/princeofpersia/</guid>
+      <description>As a big fan of Prince of Persia games, I always wanted to program my own time rewind implementation, so I implemented the core mechanics of Prince of Persia in Unity and then programmed a system to rewind character controllers, AI behaviors, animations, camera, UI, hazards and more. You can find the source code here.&#xA;The Time Rewind System The time rewind implementation uses a circular stack to store the values of the mutable variables every frame.</description>
+    </item>
+    <item>
+      <title>SNGULAR STUDIOS</title>
+      <link>http://localhost:1313/work/sngular/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>http://localhost:1313/work/sngular/</guid>
+      <description>Unreal Engine &amp;amp; Unity Software Developer Feb 2022 - Dec 2023&#xA;Developed interactive experiences for museums using Unity and Unreal Engine. At Sngular Studios, I worked primarily on Jurassic Sea, an immersive real-time experience created in Unreal Engine for Dinopolis, a dinosaur museum and theme park:&#xA;Developed an animation-driven character controller. Programmed procedural animations for dinosaurs and other creatures (neck, tails, limbs, etc.). Defined the pipeline in collaboration with animators, riggers and technical artists.</description>
+    </item>
+    <item>
+      <title>Hierarchical Finite State Machine Library</title>
+      <link>http://localhost:1313/projects/hfsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/hfsm/</guid>
+      <description>A hierarchical finite state machine library implemented in C#. The GitHub repository is setup as a Unity package, but the source code does not depend on Unity packages and can be used in any C# application. This library is open source and you can check the source code on my GitHub repository. Its features are:&#xA;Class based architecture. State machines and states are implemented inheriting from StateMachine and State classes.</description>
+    </item>
+    <item>
+      <title>DROTIUM</title>
+      <link>http://localhost:1313/work/drotium/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>http://localhost:1313/work/drotium/</guid>
+      <description>Software Engineer Intern Oct 2018 - Jul 2019&#xA;As part of my internship, I ported, integrated and optimized a routing system developed in Java into a larger web application built with JavaScript. Following this, I extended the routing system and transformed it into my final degree project, a 3D simulator of an intelligent on-demand self-driving real-time vehicle assignment system made with Unity. During my internship, I gained experience with the following skills and technologies:</description>
+    </item>
+    <item>
+      <title>Smash Bros. x Among Us Prototype</title>
+      <link>http://localhost:1313/projects/smashbros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/smashbros/</guid>
+      <description>Created the core mechanics of a platformer fighter like Smash Bros. in Unity. Then, I added Crewmate from Among Us as a playable character. I programmed all the prototype&amp;rsquo;s features and created all the art assets (3D models, textures, animations and VFX) from scratch except for the background video. The only assets I used from the original games were some of the SFX you can hear in the trailer.</description>
+    </item>
+    <item>
+      <title>Christmas Pizza</title>
+      <link>http://localhost:1313/projects/christmaspizza/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/christmaspizza/</guid>
+      <description>Puzzle videogame with golf &amp;amp; scarf physics. Created in Core Games Engine as a submission for the Core Game Creator challenge. The game was awarded with one of the two 3rd place prizes.&#xA;My contributions were:&#xA;All the source code except for the cinematic camera movement at the end used Cinematic shot by standardcombo) . Art and music assets kitbashed from the engine&amp;rsquo;s assets except for the Gingerbread house (created by Stormhawk).</description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>http://localhost:1313/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/education/</guid>
+      <description>Master’s Degree in Artificial Intelligence Research — UNED, Spain October 2019 - July 2020 GPA: 9.6/10.0 | Top of the class&#xA;Master thesis: Automatic wide-field registration and mosaicking of noisy OCTA images using template matching and differential evolution.&#xD;Degree in Computer Engineering — University of León, Spain September 2015 - July 2019 GPA: 9.49/10.0 | Top of the class&#xA;Skills: Software Engineering, Artificial Intelligence, Web development, Databases, Programming, Mathematics. Technologies: Java, C, C++, Python, JavaScript, SQL, MongoDB, HTML, CSS, Node.</description>
+    </item>
+  </channel>
+</rss>

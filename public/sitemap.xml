@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/work/alderongames/</loc>
+    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/princeofpersia/</loc>
+  </url><url>
+    <loc>http://localhost:1313/work/sngular/</loc>
+    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/hfsm/</loc>
+  </url><url>
+    <loc>http://localhost:1313/work/drotium/</loc>
+    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/smashbros/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/christmaspizza/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/work/</loc>
+    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/education/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>

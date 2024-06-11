@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WORK EXPERIENCE on Alejandro Moya</title>
+    <link>http://localhost:1313/work/</link>
+    <description>Recent content in WORK EXPERIENCE on Alejandro Moya</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Nov 2016 19:41:01 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ALDERON GAMES</title>
+      <link>http://localhost:1313/work/alderongames/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      <guid>http://localhost:1313/work/alderongames/</guid>
+      <description>Unreal Engine Programmer Dec 2023 - Jun 2024&#xA;During my time at Alderon Games I worked on Path of Titans, an MMO dinosaur game for PC, PlayStation®, Nintendo Switch™, Xbox and mobile devices made in Unreal Engine 5:&#xA;Developed networked movement features for dinosaur character controllers. Implemented abilities and effects using Unreal Engine&amp;rsquo;s Gameplay Ability System. Programmed gameplay features for three game modes: Capture The Egg, Team Death Match and King of the Hill.</description>
+    </item>
+    <item>
+      <title>SNGULAR STUDIOS</title>
+      <link>http://localhost:1313/work/sngular/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>http://localhost:1313/work/sngular/</guid>
+      <description>Unreal Engine &amp;amp; Unity Software Developer Feb 2022 - Dec 2023&#xA;Developed interactive experiences for museums using Unity and Unreal Engine. At Sngular Studios, I worked primarily on Jurassic Sea, an immersive real-time experience created in Unreal Engine for Dinopolis, a dinosaur museum and theme park:&#xA;Developed an animation-driven character controller. Programmed procedural animations for dinosaurs and other creatures (neck, tails, limbs, etc.). Defined the pipeline in collaboration with animators, riggers and technical artists.</description>
+    </item>
+    <item>
+      <title>DROTIUM</title>
+      <link>http://localhost:1313/work/drotium/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>http://localhost:1313/work/drotium/</guid>
+      <description>Software Engineer Intern Oct 2018 - Jul 2019&#xA;As part of my internship, I ported, integrated and optimized a routing system developed in Java into a larger web application built with JavaScript. Following this, I extended the routing system and transformed it into my final degree project, a 3D simulator of an intelligent on-demand self-driving real-time vehicle assignment system made with Unity. During my internship, I gained experience with the following skills and technologies:</description>
+    </item>
+  </channel>
+</rss>
