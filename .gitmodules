@@ -1,3 +1,7 @@
 [submodule "themes/hugo-video"]
 	path = themes/hugo-video
 	url = https://github.com/martignoni/hugo-video.git
+	
+[submodule "hugo-forum-topic-34833"]
+	path = hugo-forum-topic-34833
+	url = https://github.com/jmooring/hugo-testing hugo-forum-topic-34833
