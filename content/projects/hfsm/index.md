@@ -1,7 +1,7 @@
 +++
 title = "Hierarchical Finite State Machine Library"
 description = "C# HFSM library."
-image="img/HFSM.png"
+image="img/HFSMLogo.png"
 weight=2
 DisplayNextAndPrevious=true
 +++
