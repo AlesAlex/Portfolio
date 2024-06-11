@@ -5,3 +5,7 @@
 [submodule "hugo-forum-topic-34833"]
 	path = hugo-forum-topic-34833
 	url = https://github.com/jmooring/hugo-testing.git
+	
+[submodule "themes/hugo-shortcode-gallery"]
+	path = themes/hugo-shortcode-gallery
+	url = https://github.com/mfg92/hugo-shortcode-gallery.git
