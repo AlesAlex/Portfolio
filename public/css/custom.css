@@ -285,7 +285,7 @@ ul{
 
 #profile-picture{
 	display:block;
-	posiiton:relative;
+	position:relative;
 	border-radius: 50%;
 	width: 250px;
 	height: 250px;
