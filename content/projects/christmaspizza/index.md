@@ -27,4 +27,4 @@ My contributions were:
  
 You can watch the complete gameplay video here:
 
-<iframe class ="work-box-shadow" width="1200" height="675" src="https://www.youtube.com/embed/EFYU9fG4qwY?si=BPqeCxczRZCDZVPJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class ="work-box-shadow video" width="1200" height="675" src="https://www.youtube.com/embed/EFYU9fG4qwY?si=BPqeCxczRZCDZVPJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

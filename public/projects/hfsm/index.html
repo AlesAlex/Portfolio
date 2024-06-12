@@ -40,13 +40,10 @@
               <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
   <div class="sidebar-content">
     <h1 class="sidebar-heading"><a href="http://localhost:1313/">Alejandro Moya</a></h1>
-	<img id="profile-picture" class="img-responsive" src="http://localhost:1313//img/ProfilePicture.png"/>
-	<a id="curriculum" title ="Download CV" href="http://localhost:1313//resume/ResumeAlejandroMoya.pdf" target="_blank" >
-		<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
-		  <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5"/>
-		  <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
-		</svg>
-	</a>
+	<div id="profile-picture-container">
+		<img id="profile-picture" class="img-responsive" src="http://localhost:1313//img/ProfilePicture.png"/>
+		
+	</div>
 	
     
       <p class="sidebar-p">Unreal Engine and Unity programmer specializing in AI and animation programming.</p>
@@ -63,6 +60,9 @@
       
     </ul>
     <p class="social">
+  <a id="curriculum" data-animate-hover="pulse" title ="Download CV" href="http://localhost:1313//pdf/ResumeAlejandroMoya.pdf" target="_blank" >
+	<svg class="curriculum-icon" xmlns="http://www.w3.org/2000/svg" color ="white" viewBox="-225 0 826 1228"><path d="M64 464c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120z"/></svg>
+  </a>
   
   
   
@@ -110,8 +110,8 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1 class="work-page-title">Hierarchical Finite State Machine Library</h1>
-         <a title="GitHub" rel="me" data-animate-hover="pulse" href="https://github.com/AlexBlackfrost/Hierarchical-Finite-State-Machine" target="_blank">
+        <h1 class="work-page-title">Hierarchical Finite State Machine Library</h1>
+        <a title="GitHub" rel="me" data-animate-hover="pulse" href="https://github.com/AlexBlackfrost/Hierarchical-Finite-State-Machine" target="_blank">
 	<svg class ="github-logo" xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
 	  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
 	</svg>
@@ -124,7 +124,7 @@ Its features are:</p>
 <li><strong>Nested states</strong>. Both state machines and states can implement the different logic actions: <code>OnEnter()</code>, <code>OnExit()</code> and <code>OnUpdate()</code>.</li>
 <li><strong>Event and polling transitions</strong>. Transitions between states can be defined using events or conditions that are checked every cycle.</li>
 <li><strong>Transition actions</strong>. Transitions can execute an <code>Action</code> when they are executed.</li>
-<li><strong>Thoroughly unit-tested</strong>. Big emphasis on unit testing and code coverage.</li>
+<li><strong>Throughly unit-tested</strong>. Big emphasis on unit testing and code coverage.</li>
 </ul>
 <p>I also created a simple battle royale sample project to test the library. In this project there are 3 species of creatures represent by different colors.
 They fight each other until only one species remain. All the species follow the behavior defined by the state diagram below.</p>
@@ -140,30 +140,33 @@ They fight each other until only one species remain. All the species follow the 
 </br></br>
 <p>I also used this library in a larger scope project, a <a href="../../projects/princeofpersia" target="_blank">Prince of Persia&rsquo;s time rewind recreation</a>.</p>
 
-         
-	
+        
+		  
+		
+			<div class="nav-container">
+				
+
+				
+				<div class = "previous-container">
+				  <a href="/projects/smashbros/" class="previous">PREVIOUS</a>
+				</div>
+				
+
+				
+				<div class ="next-container">
+					<a href="/projects/princeofpersia/" class="next">NEXT</a>
+				</div>
+				
+				
+
+			</div>
+		
       </div>
     </div>
 	
   </div>
-	
-	<div>
-		
-
-		
-		  <a href="/projects/smashbros/" class="previous">PREVIOUS PROJECT</a>
-		
-
-		
-		 <a href="/projects/princeofpersia/" class="next">NEXT PROJECT</a>
-		
-		
-
-	</div>
-	
 </div>
-
-
+<div class="filler-div"></div>
 
           </div>
       </div>

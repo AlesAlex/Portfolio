@@ -9,6 +9,7 @@ period = "2023 - 2024"
 role="Unreal Engine Programmer"
 DisplayInTimeline = true
 DisplayTimeline = true
+DisplayNextAndPrevious=true
 +++
 
 **Unreal Engine Programmer** &emsp;&emsp;&nbsp;&nbsp; Dec 2023 - Jun 2024  

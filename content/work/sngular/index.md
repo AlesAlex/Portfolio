@@ -9,6 +9,7 @@ role = "Unreal Engine/Unity Software Developer"
 weight = 2
 DisplayInTimeline = true
 DisplayTimeline = true
+DisplayNextAndPrevious=true
 +++
 
 **Unreal Engine & Unity Software Developer** &emsp;&emsp;&nbsp;&nbsp; Feb 2022 - Dec 2023  

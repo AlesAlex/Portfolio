@@ -40,13 +40,10 @@
               <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
   <div class="sidebar-content">
     <h1 class="sidebar-heading"><a href="http://localhost:1313/">Alejandro Moya</a></h1>
-	<img id="profile-picture" class="img-responsive" src="http://localhost:1313//img/ProfilePicture.png"/>
-	<a id="curriculum" title ="Download CV" href="http://localhost:1313//resume/ResumeAlejandroMoya.pdf" target="_blank" >
-		<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
-		  <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5"/>
-		  <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
-		</svg>
-	</a>
+	<div id="profile-picture-container">
+		<img id="profile-picture" class="img-responsive" src="http://localhost:1313//img/ProfilePicture.png"/>
+		
+	</div>
 	
     
       <p class="sidebar-p">Unreal Engine and Unity programmer specializing in AI and animation programming.</p>
@@ -63,6 +60,9 @@
       
     </ul>
     <p class="social">
+  <a id="curriculum" data-animate-hover="pulse" title ="Download CV" href="http://localhost:1313//pdf/ResumeAlejandroMoya.pdf" target="_blank" >
+	<svg class="curriculum-icon" xmlns="http://www.w3.org/2000/svg" color ="white" viewBox="-225 0 826 1228"><path d="M64 464c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120z"/></svg>
+  </a>
   
   
   
@@ -110,8 +110,8 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1 class="work-page-title">ALDERON GAMES</h1>
-         <p><strong>Unreal Engine Programmer</strong>      Dec 2023 - Jun 2024</p>
+        <h1 class="work-page-title">ALDERON GAMES</h1>
+        <p><strong>Unreal Engine Programmer</strong>      Dec 2023 - Jun 2024</p>
 <p><img alt="PathOfTitansWork1" class="work-header" height="575" src="/img/PathOfTitansWork1_hu36783c97d9d33be637531cb71b5490eb_6793718_1250x0_resize_box_3.png" width="1250"></p>
 <div class="platforms">
 <a href="https://alderongames.com/store/path-of-titans" class="platform-logo" target="_blank">
@@ -495,8 +495,23 @@
 </script>
 
 <iframe class="video" width="1200" height="675" src="https://www.youtube.com/embed/SdYZaWW0iYE?si=HHAV3vcWAI_Mx6s2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-         
-	
+        
+		  
+		
+			<div class="nav-container">
+				
+
+				
+				<div class = "previous-container">
+				  <a href="/work/sngular/" class="previous">PREVIOUS</a>
+				</div>
+				
+
+				
+				
+
+			</div>
+		
       </div>
     </div>
 	
@@ -558,10 +573,8 @@
 		</div>
 	
   </div>
-	
 </div>
-
-
+<div class="filler-div"></div>
 
           </div>
       </div>

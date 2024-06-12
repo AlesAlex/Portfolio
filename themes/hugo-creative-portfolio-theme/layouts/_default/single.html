@@ -4,10 +4,29 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1 class="work-page-title">{{ .Title }}</h1>
-         {{ .Content | safeHTML }}
-         {{ template "_internal/disqus.html" . }}
-	
+        <h1 class="work-page-title">{{ .Title }}</h1>
+        {{ .Content | safeHTML }}
+        {{ template "_internal/disqus.html" . }}
+		  
+		{{ if eq .Params.DisplayNextAndPrevious true }}
+			<div class="nav-container">
+				{{ $pages := where .Site.RegularPages.ByWeight "Section" .Section }}
+
+				{{ with $pages.Prev . }}
+				<div class = "previous-container">
+				  <a href="{{ .RelPermalink }}" class="previous">PREVIOUS</a>
+				</div>
+				{{ end }}
+
+				{{ with $pages.Next .  }}
+				<div class ="next-container">
+					<a href="{{ .RelPermalink }}" class="next">NEXT</a>
+				</div>
+				{{end}}
+				
+
+			</div>
+		{{ end }}
       </div>
     </div>
 	{{ if eq .Params.DisplayTimeline true }}
@@ -29,22 +48,6 @@
 		</div>
 	{{end}}
   </div>
-	{{ if eq .Params.DisplayNextAndPrevious true }}
-	<div>
-		{{ $pages := where .Site.RegularPages.ByWeight "Section" "projects" }}
-
-		{{ with $pages.Prev . }}
-		  <a href="{{ .RelPermalink }}" class="previous">PREVIOUS PROJECT</a>
-		{{ end }}
-
-		{{ with $pages.Next .  }}
-		 <a href="{{ .RelPermalink }}" class="next">NEXT PROJECT</a>
-		{{end}}
-		
-
-	</div>
-	{{ end }}
 </div>
-
-
+<div class="filler-div"></div>
 {{ end }}

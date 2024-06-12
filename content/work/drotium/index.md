@@ -10,6 +10,7 @@ weight = 3
 description = ""
 DisplayInTimeline = true
 DisplayTimeline = true
+DisplayNextAndPrevious=true
 +++
 
 **Software Engineer Intern** &emsp;&emsp;&nbsp;&nbsp; Oct 2018 - Jul 2019  

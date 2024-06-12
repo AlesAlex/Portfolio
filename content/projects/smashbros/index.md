@@ -6,7 +6,7 @@ weight=3
 DisplayNextAndPrevious=true
 +++
 
-<iframe class ="work-box-shadow" width="700" height="394" src="https://www.youtube.com/embed/U9WdBFNQQxM?si=l8m_gS6dNNn6Nztd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class ="work-box-shadow video" width="700" height="394" src="https://www.youtube.com/embed/U9WdBFNQQxM?si=l8m_gS6dNNn6Nztd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Created the core mechanics of a platformer fighter like Smash Bros. in Unity. Then, I added Crewmate from Among Us as a playable character.
 I programmed all the prototype's features and created all the art assets (3D models, textures, animations and VFX) from scratch except for the background video. 

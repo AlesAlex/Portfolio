@@ -19,7 +19,7 @@ Its features are:
 * **Nested states**. Both state machines and states can implement the different logic actions: `OnEnter()`, `OnExit()` and `OnUpdate()`.
 * **Event and polling transitions**. Transitions between states can be defined using events or conditions that are checked every cycle.
 * **Transition actions**. Transitions can execute an `Action` when they are executed.
-* **Thoroughly unit-tested**. Big emphasis on unit testing and code coverage.
+* **Throughly unit-tested**. Big emphasis on unit testing and code coverage.
 
 I also created a simple battle royale sample project to test the library. In this project there are 3 species of creatures represent by different colors. 
 They fight each other until only one species remain. All the species follow the behavior defined by the state diagram below.

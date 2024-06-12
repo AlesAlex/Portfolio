@@ -220,3 +220,12 @@ $(document).ready(function() {
 		a.addClass('active');
 	}
 });
+
+$(document).ready(function() {
+	$('.video, .desmos').each(function(){
+		var width = parseInt($(this).css("width"));
+		var height = width / (16/9);
+		$(this).css({"height":height});
+	
+	});
+});
