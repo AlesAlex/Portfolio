@@ -44,7 +44,7 @@ footer .credit{
 .sidebar-heading a{
 	color: #F4EEE0;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 23px;
 }
 
 .sidebar-p{
@@ -611,7 +611,7 @@ iframe{
 	border-color: var(--gray);
 	padding: 5px 15px 5px 15px;
 	width:100%;
-	min-width:125px;
+	min-width:120px;
 	text-align:center;
 }
 
