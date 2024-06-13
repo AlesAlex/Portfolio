@@ -229,3 +229,21 @@ $(document).ready(function() {
 	
 	});
 });
+
+function OnPrevNextClicked(event){
+	
+}
+
+$(document).ready(function() {
+	$('.previous, .next').each(function(){
+		var prevNextButton = $(this);
+		prevNextButton.on('click',  function(event){
+			event.preventDefault();
+			var href = prevNextButton.attr('href'); // store the href attr
+			var clickedTimelineElementTitle = prevNextButton.attr("id");
+			sessionStorage.setItem('clickedTimelineElementTitle', clickedTimelineElementTitle);
+			window.location.href = href; // redirect with stored href
+		
+		});
+	});
+});

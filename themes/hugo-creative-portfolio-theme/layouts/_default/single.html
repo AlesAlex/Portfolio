@@ -14,13 +14,13 @@
 
 				{{ with $pages.Prev . }}
 				<div class = "previous-container">
-				  <a href="{{ .RelPermalink }}" class="previous">PREVIOUS</a>
+				  <a href="{{ .RelPermalink }}" class="previous" id = {{ .Params.Title }}>PREVIOUS</a>
 				</div>
 				{{ end }}
 
 				{{ with $pages.Next .  }}
 				<div class ="next-container">
-					<a href="{{ .RelPermalink }}" class="next">NEXT</a>
+					<a href="{{ .RelPermalink }}" class="next" id = {{ .Params.Title }}>NEXT</a>
 				</div>
 				{{end}}
 				
