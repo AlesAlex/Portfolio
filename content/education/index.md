@@ -6,8 +6,11 @@ ShowTimeline=true
 <h4 class = "education-item" >Master’s Degree in Artificial Intelligence Research — <span class ="education-location">UNED, Spain </span> <span class="education-period"> October 2019 - July 2020</span></h4> 
   
 <p class ="education-grade">GPA: 9.6/10.0 | Top of the class</p>
-<a id="tfm" class="education-description" title =" Master thesis" href="pdf/TFM.pdf"  target="_blank">
-Master thesis: Automatic wide-field registration and mosaicking of noisy OCTA images using template matching and differential evolution.
+
+
+
+<a id="tfm" class="education-description" title ="Master thesis" href= "{{< relref "." >}}pdf/TFM.pdf" target="_blank">
+ Master thesis: Automatic wide-field registration and mosaicking of noisy OCTA images using template matching and differential evolution.
 </a>
 
 
