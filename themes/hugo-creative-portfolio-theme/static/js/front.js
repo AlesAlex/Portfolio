@@ -280,7 +280,7 @@ function movePupil(pupil, xp, yp, eyeOrigin, maxPupilDisplacement){
 $(document).ready(function() {
 	var mouseX = 0, mouseY = 0;
 	var xp = 0, yp = 0;
-	var maxRightPupilDisplacement = 11.5, maxLeftPupilDisplacement = 10;
+	var maxRightPupilDisplacement = 12, maxLeftPupilDisplacement = 10;
 	
 	$(document).mousemove(function(e){
 		//mouseX = e.pageX - 145;
