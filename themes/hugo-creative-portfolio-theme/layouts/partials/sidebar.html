@@ -3,6 +3,14 @@
     <h1 class="sidebar-heading"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
 	<div id="profile-picture-container">
 		<img id="profile-picture" class="img-responsive" src="{{ .Site.BaseURL }}{{.Site.Params.profilepicturepath}}"/>
+		<div id="pupil-mask">
+			<div id="left-pupil-container">
+				<span id="left-pupil"></span>
+			</div>
+			<div id="right-pupil-container">
+				<span id="right-pupil"></span>
+			</div>
+		</div>
 		<!--><a id="curriculum" title ="Download CV" href="{{ .Site.BaseURL }}/pdf/ResumeAlejandroMoya.pdf" target="_blank" >
 			<i class="fa-regular fa-file-lines"></i>
 			<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">

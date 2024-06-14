@@ -15,6 +15,7 @@ googleAnalytics = ""
 	description = "Describe your website" 
 	copyright = "Alejandro Moya. "
 	profilepicturepath = "/img/ProfilePicture.png"
+	profilepicturepathmask = "/img/PupilMask.png"
 	
   sidebarAbout = [
     "Unreal Engine and Unity programmer specializing in AI and animation programming.",

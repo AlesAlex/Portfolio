@@ -187,7 +187,6 @@ function onWorkPageWorkClicked(event){
 
 $(document).ready(function() {
     var clickedTimelineElementTitle = sessionStorage.getItem('clickedTimelineElementTitle');
-	console.log(clickedTimelineElementTitle);
 	var timelineElements = $(this).find('.timeline-element');
 	
 	var timelineArrow = $(this).find('.timeline-arrow');
@@ -230,9 +229,6 @@ $(document).ready(function() {
 	});
 });
 
-function OnPrevNextClicked(event){
-	
-}
 
 $(document).ready(function() {
 	$('.previous, .next').each(function(){
@@ -246,4 +242,72 @@ $(document).ready(function() {
 		
 		});
 	});
+});
+
+
+function movePupil(pupil, xp, yp, eyeOrigin, maxPupilDisplacement){
+	var eyeOriginOffset = $(eyeOrigin).offset();
+	var eyeOriginX = eyeOriginOffset.left - $(window).scrollLeft();
+	var eyeOriginY = eyeOriginOffset.top - $(window).scrollTop();
+	
+	var mouseDirectionX = xp - eyeOriginX;
+	var mouseDirectionY = yp - eyeOriginY;
+	var mouseDirectionModule = Math.sqrt(mouseDirectionX*mouseDirectionX + mouseDirectionY*mouseDirectionY);
+	var mouseDirectionNormalizedX = mouseDirectionX/mouseDirectionModule;
+	var mouseDirectionNormalizedY = mouseDirectionY/mouseDirectionModule;
+	
+
+	var distance = Math.sqrt((eyeOriginX - xp)*(eyeOriginX - xp) + (eyeOriginY - yp)*(eyeOriginY - yp))
+	
+	distance = Math.min(distance, maxPupilDisplacement); 
+	
+	var pupilWidth = $(pupil).width();
+	var pupilHeight = $(pupil).height();
+	
+	var pupilPositionX = mouseDirectionNormalizedX * distance - pupilWidth/2.0;
+	var pupilPositionY = mouseDirectionNormalizedY * distance - pupilHeight/2.0;
+	
+	var relativeXPos = pupilPositionX;
+	var relativeYPos = pupilPositionY;
+	pupil.css({"left": relativeXPos, "top": relativeYPos });
+	
+	//pupil.css({"left": xp -  eyeOriginX - pupilWidth/2.0, "top": yp-eyeOriginY - pupilHeight/2.0 });
+	//console.log("eye origin x: ", eyeOriginX, " y: ", eyeOriginY);
+	//console.log("mouse position x: ", xp, " y: ", yp);
+}
+
+
+$(document).ready(function() {
+	var mouseX = 0, mouseY = 0;
+	var xp = 0, yp = 0;
+	var maxRightPupilDisplacement = 11.5, maxLeftPupilDisplacement = 10;
+	
+	$(document).mousemove(function(e){
+		//mouseX = e.pageX - 145;
+		//mouseY = e.pageY - 220; 
+		mouseX = e.pageX;
+		mouseY = e.pageY;
+	});
+	
+	// right pupil
+	var rightEyeOrigin = document.getElementById("right-pupil-container");
+	 
+	var rightPupil = $(document).find("#right-pupil");
+	var rightPupilWidth = $(rightPupil).width();
+	var rightPupilHeight = $(rightPupil).height();
+	
+	// left pupil
+	var leftEyeOrigin = $(document).find("#left-pupil-container");
+	 
+	var leftPupil = $(document).find("#left-pupil");
+	var leftPupilWidth = $(leftPupil).width();
+	var leftPupilHeight = $(leftPupil).height();
+	
+	setInterval(function(){
+		xp += ((mouseX - xp)/6);
+		yp += ((mouseY - yp)/6);
+		
+		movePupil(rightPupil, xp, yp, rightEyeOrigin, maxRightPupilDisplacement);
+		movePupil(leftPupil, xp, yp, leftEyeOrigin, maxLeftPupilDisplacement);
+	}, 20);
 });

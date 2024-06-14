@@ -44,7 +44,7 @@ footer .credit{
 .sidebar-heading a{
 	color: #F4EEE0;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 23px;
 }
 
 .sidebar-p{
@@ -295,6 +295,7 @@ ul{
 #profile-picture-container{
 	position:relative;
 	width: 50%;
+	min-width:150px;
 }
 
 #profile-picture{
@@ -302,6 +303,7 @@ ul{
 	min-width: 150px;
 	margin:0 0 10px 0;
 	background-color: #903232;
+	
 }
 
 .timeline{
@@ -611,7 +613,7 @@ iframe{
 	border-color: var(--gray);
 	padding: 5px 15px 5px 15px;
 	width:100%;
-	min-width:125px;
+	min-width:120px;
 	text-align:center;
 }
 
@@ -674,4 +676,60 @@ iframe{
 	width: 5%;
 	height:100vh;
 }
+
+#pupil-mask{
+	mask-image: url(../img/PupilMask.png);
+	mask-mode:luminance;
+	mask-size: 100% 100%;
+	mask-repeat: no-repeat;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	min-width:150px;
+}
+
+#right-pupil-container{
+	position:absolute;
+	width : 15%;
+	height: 15%;
+	left:52%;
+	top:61%;
+}
+
+
+#right-pupil{
+	position: absolute;
+	border: solid 1px black;
+	width: 70%; 
+	height: 70%; 
+	border-radius: 100%;  
+	background-color:black;
+	color:black;  
+	margin:0;
+	padding:0;
+}
+
+#left-pupil-container{
+	position:absolute;
+	width : 15%;
+	height: 15%;
+	left:32%;
+	top:61%;
+}
+
+
+#left-pupil{
+	position: absolute;
+	border: solid 1px black;
+	width: 70%; 
+	height: 70%; 
+	border-radius: 100%;  
+	background-color:black;
+	color:black;  
+	margin:0;
+	padding:0;
+}
+
 
