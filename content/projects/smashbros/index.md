@@ -1,7 +1,7 @@
 +++
 title = "Smash Bros. x Among Us Prototype"
 image="img/SmashBrosXAmongUs.png"
-description = "Recreated the core mechanics of Smash Bros. and added Among Us' crewmate as a playable character."
+description = "Recreated Smash Bros. core mechanics and added Among Us' crewmate as a playable character."
 weight=3
 DisplayNextAndPrevious=true
 +++
