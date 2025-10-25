@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WORK EXPERIENCE on Alejandro Moya</title>
+    <title>WORK EXPERIENCE on Alejandro M. Garcia</title>
     <link>http://localhost:1313/work/</link>
-    <description>Recent content in WORK EXPERIENCE on Alejandro Moya</description>
+    <description>Recent content in WORK EXPERIENCE on Alejandro M. Garcia</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Nov 2016 19:41:01 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GRIP STUDIOS</title>
+      <link>http://localhost:1313/work/grip/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      <guid>http://localhost:1313/work/grip/</guid>
+      <description>AI Game Programmer Nov 2024 - Present&#xA;Worked on Ranger&amp;rsquo;s Path: National Park Simulator as an Unreal Engine AI Game Programmer.&#xA;Created perception and reaction systems for NPCs using Mass Entity ECS framework. Implemented a framework to script behaviors for multiple human and animal NPC archetypes. Built systems to bridge animation blueprints and Mass Entity ECS framework. Implemented smart object interactions and synchronized interactions between multiple NPCs. </description>
+    </item>
     <item>
       <title>ALDERON GAMES</title>
       <link>http://localhost:1313/work/alderongames/</link>
@@ -20,7 +27,7 @@
       <link>http://localhost:1313/work/sngular/</link>
       <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
       <guid>http://localhost:1313/work/sngular/</guid>
-      <description>Unreal Engine &amp;amp; Unity Software Developer Feb 2022 - Dec 2023&#xA;Developed interactive experiences for museums using Unity and Unreal Engine. At Sngular Studios, I worked primarily on Jurassic Sea, an immersive real-time experience created in Unreal Engine for Dinopolis, a dinosaur museum and theme park:&#xA;Developed an animation-driven character controller. Programmed procedural animations for dinosaurs and other creatures (neck, tails, limbs, etc.). Defined the pipeline in collaboration with animators, riggers and technical artists.</description>
+      <description>Unreal Engine AI and Animation Programmer Feb 2022 - Dec 2023&#xA;Developed interactive experiences for museums and theme parks using Unity and Unreal Engine. At Sngular Studios, I worked primarily on Jurassic Sea, an immersive real-time experience created in Unreal Engine for Dinopolis, a dinosaur museum and theme park:&#xA;Developed an animation-driven character controller. Programmed procedural animations for dinosaurs and other creatures (neck, tails, limbs, etc.). Defined the pipeline in collaboration with animators, riggers and technical artists.</description>
     </item>
     <item>
       <title>DROTIUM</title>

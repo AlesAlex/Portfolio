@@ -1,5 +1,5 @@
 baseurl = "https://example.org/"
-title = "Alejandro Moya"
+title = "Alejandro M. Garcia"
 worksubtitle= "Studios and companies I have worked for." 
 theme = ["hugo-video", "hugo-creative-portfolio-theme", "hugo-shortcode-gallery"]
 languageCode = "en-us"
@@ -13,7 +13,7 @@ googleAnalytics = ""
 	# Use custom.css for your custom styling
 	style = "default" 
 	description = "Describe your website" 
-	copyright = "Alejandro Moya. "
+	copyright = "Alejandro M. Garcia"
 	profilepicturepath = "/img/ProfilePicture.png"
 	profilepicturepathmask = "/img/PupilMask.png"
 	

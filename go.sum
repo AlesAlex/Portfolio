@@ -4,5 +4,7 @@ github.com/hugomods/icons/vendors/bootstrap v0.5.6 h1:4Vj7u52gFUnO+Jj/CqmGfsLroi
 github.com/hugomods/icons/vendors/bootstrap v0.5.6/go.mod h1:Sw1RhQvFcsQlJ5a4SKpp7A0XHDYQ0DK0pQwnnx+l+Ao=
 github.com/mfg92/hugo-shortcode-gallery v1.1.1 h1:SQfyXMG3LaJ7aRVa/Lta8UP61VG6SESh19qe6XZsi+k=
 github.com/mfg92/hugo-shortcode-gallery v1.1.1/go.mod h1:zKnMCx7OJJPTfVNalUAFGkNVABLCqIuPl57NeBtSFc0=
+github.com/mfg92/hugo-shortcode-gallery v1.3.0 h1:7wiUUu7adN3JbcshZfZ+Q0ZLDilPoGkquoor0ZcdJVU=
+github.com/mfg92/hugo-shortcode-gallery v1.3.0/go.mod h1:SEdbeBGSMX2lP+4nCqqy9AyTWWktUMWXYnR3r1l01Rw=
 github.com/twbs/icons v1.11.3 h1:XhvrQ1XDom9ggBbQx3wQCFGEr8qAQwQP/dAcw8OXMtA=
 github.com/twbs/icons v1.11.3/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=

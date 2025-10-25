@@ -5,14 +5,14 @@ image = "img/Dinopolis.png"
 date = "2016-11-05T18:25:22+05:30"
 title = "SNGULAR STUDIOS"
 period = "2022 - 2023"
-role = "Unreal Engine/Unity Software Developer"
-weight = 2
+role = "Unreal Engine AI and Animation Programmer"
+weight = 3
 DisplayInTimeline = true
 DisplayTimeline = true
 DisplayNextAndPrevious=true
 +++
 
-**Unreal Engine & Unity Software Developer** &emsp;&emsp;&nbsp;&nbsp; Feb 2022 - Dec 2023  
+**Unreal Engine AI and Animation Programmer** &emsp;&emsp;&nbsp;&nbsp; Feb 2022 - Dec 2023  
 
 ![SngularWork1](/img/SngularWork1.png?w=1000&c=work-header)
   
@@ -30,9 +30,9 @@ DisplayNextAndPrevious=true
 	</svg>
 </a>
 </div>
-  
-  
-Developed interactive experiences for museums using Unity and Unreal Engine. At Sngular Studios, I worked primarily on Jurassic Sea, an immersive real-time experience created in 
+
+
+Developed interactive experiences for museums and theme parks using Unity and Unreal Engine. At Sngular Studios, I worked primarily on Jurassic Sea, an immersive real-time experience created in 
 Unreal Engine for [Dinopolis](https://www.dinopolis.com/), a dinosaur museum and theme park:
 
 * Developed an animation-driven **character controller**.

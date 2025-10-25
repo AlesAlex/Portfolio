@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PERSONAL PROJECTS on Alejandro Moya</title>
+    <title>PERSONAL PROJECTS on Alejandro M. Garcia</title>
     <link>http://localhost:1313/projects/</link>
-    <description>Recent content in PERSONAL PROJECTS on Alejandro Moya</description>
+    <description>Recent content in PERSONAL PROJECTS on Alejandro M. Garcia</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
